@@ -1,0 +1,130 @@
+/* Alex Ward's Custom YUI2 Reset */
+* { margin:0;padding:0;box-sizing:border-box;outline: 0; }
+table { border-collapse:collapse;border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal;font-weight:normal;}
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;font-weight:normal;}
+q:before,q:after { content:'';}
+a { text-decoration:none; }
+abbr,acronym { border:0;}
+input, textarea { -webkit-appearance: none; }
+header, article, section, nav, figure, aside, hgroup, footer { display:block; } /* Only for HTML5 */
+html { font-size: 62.5%; }
+body, html { height:100%; }
+html, html a { -webkit-font-smoothing: antialiased !important; }
+select::-ms-expand { display: none; } /* Remove default drop down style in IE */
+/* Any text inside a paragraph should be formatted normally */
+span strong, p strong { font-weight: bold; }
+span em, p em { font-style: italic; }
+p strong em,p em strong { font-style: italic; font-weight:bold; }
+
+body {
+    font-family: 'helvetica', arial, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper header {
+    background-color: #FAEAB8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.wrapper nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrapper nav li {
+    display: inline-block;
+}
+
+.wrapper nav a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    margin: 2px;
+    color: #fff;
+    background-color: #B0885A;
+}
+
+.wrapper nav a:hover {
+    background-color: #896133;
+}
+
+h1,
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+article h1,
+h2 {
+    font-size: 18px;
+}
+
+section img {
+    float:right;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section p,
+article p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+section a,
+article a {
+    font-size: 14px;
+    color: #ac1e19;
+}
+
+section a:hover,
+article a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    float: left;
+}
+
+.more {
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .wrapper {
+        width: 960px;
+    }
+
+    .wrapper nav {
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+
+    .wrapper nav a {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
